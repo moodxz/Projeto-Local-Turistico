@@ -17,6 +17,14 @@
     --accent-orange: #E95E10;
     --accent-pink: #E5245E;
     --accent-purple: #591B98;
+
+    --font-family: "Open Sans", sans-serif;
+    --text-h1: bold 36px var(--font-family);
+    --text-h2: bold 32px var(--font-family);
+    --text-h3: bold 28px var(--font-family);
+    --text-headline: bold 16px var(--font-family);
+    --text-paragraph: 16px var(--font-family);
+    --text-subtitle: italic 16px var(--font-family);
 }
 
 body {
