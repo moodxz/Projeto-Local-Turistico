@@ -11,7 +11,7 @@
     --text-primary: #1B1B1B;
     --text-secondary: #333333;
     --text-tertiary: #696969;
-    --text-headline: #E1624F;
+    --text-headline: #e1624f;
 
     --accent-blue: #0C51A7;
     --accent-orange: #E95E10;
@@ -31,10 +31,36 @@ body {
     background-color: var(--background-default);
 }
 
+span {
+    color: #e1624f;
+    font: var(--text-headline);
+}
+
 h1 {
+    font: var(--text-h1);
     color: var(--text-primary);
 }
 
+h2 {
+    font: var(--text-h2);
+    color: var(--text-primary);
+}
+
+h3 {
+    font: var(--text-h3);
+    color: var(--text-primary)
+}
+
 p {
+    font: var(--text-paragraph);
     color: var(--text-secondary);
+}
+
+.description-image img{
+    border-radius: 28px;
+}
+
+.description-image p{
+    font: var(--text-subtitle);
+    
 }
