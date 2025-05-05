@@ -3,3 +3,30 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+:root {
+    --background-default: #F5F4F0;
+    --border-primary: #D9D9D9;
+
+    --text-primary: #1B1B1B;
+    --text-secondary: #333333;
+    --text-tertiary: #696969;
+    --text-headline: #E1624F;
+
+    --accent-blue: #0C51A7;
+    --accent-orange: #E95E10;
+    --accent-pink: #E5245E;
+    --accent-purple: #591B98;
+}
+
+body {
+    background-color: var(--background-default);
+}
+
+h1 {
+    color: var(--text-primary);
+}
+
+p {
+    color: var(--text-secondary);
+}
