@@ -84,6 +84,7 @@ footer img {
 
 .description-image p {
     font: var(--text-subtitle);
+    text-align: center;
     margin-bottom: 40px;
 }
 
