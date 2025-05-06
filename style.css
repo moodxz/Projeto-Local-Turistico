@@ -87,6 +87,10 @@ footer img {
     margin-bottom: 40px;
 }
 
+.description-image img {
+    margin-bottom: 24px;
+}
+
 .divider {
     width: 100%;
     height: 1px;
